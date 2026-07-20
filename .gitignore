@@ -1,9 +1,24 @@
 .DS_Store
+
+# IDEs and language-server caches
 .idea/
 .vs/
+.cache/
+
+# Build output directories
 bin/
 out/
 build/
 test_build/
 cmake-build-*/
+
+# Local CMake configuration and generated files
 CMakeSettings.json
+CMakeUserPresets.json
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+build.ninja
+.ninja_*
